@@ -13,8 +13,7 @@ namespace Lab2
             Car one = new Car();
             one.GetInfo();
             Console.WriteLine($"Hash={one.ID}");
-            Car two = new Car(1, "Toyota", "camry", 2010, "black", "11000", "d4g5") //?
-            {
+            Car two = new Car(1, "Toyota", "camry", 2010, "black", "11000", "d4g5")     
                 Id = 5,
                 Brand = "BMW",
                 Model = "x6",
