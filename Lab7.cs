@@ -440,10 +440,6 @@ namespace Lab7
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите 10, чтобы создать банк");
-            int x = Int32.Parse(Console.ReadLine());
-            if (x == 10)
-            {
                 Control bank = Create();
                 try
                 {
@@ -456,11 +452,6 @@ namespace Lab7
                     Console.WriteLine("Имя объекта или сборки, которое вызвало исключение: " + ex.Source);
                     Console.WriteLine("Cтроковое представление стека вызывов, которые привели к возникновению исключения: " + ex.StackTrace + "\n\n");
                 }
-            }
-            else
-            {
-                Console.WriteLine("Неверное значение");
-            }
         }
         public static Control Create()
         {
